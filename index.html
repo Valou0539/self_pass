@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYCEE POLYVALENT J. DUHAMEL - PRONOTE - Espace Élèves</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="background"></div>
+        <div class="left">
+            <img class="profil_picture" src="img/profil.jpg" alt="Photo de profil">
+        </div>
+        <div class="right">
+            <div class="header_text">
+                <input class="name" type="text" placeholder="NOM Prénom">
+                <span>Page d'accueil</span>
+            </div>
+            <div class="nav">
+                <img class="home_button" src="img/home.svg" alt="home logo">
+                <div class="menu_button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article class="article redirect">
+        <h2 class="article_title">Vous avez été redirigé vers la version mobile.</h2>
+        <span class="article_text"><img src="img/version_classique.png" alt="icone pc">Accéder à la version classique</span>
+    </article>
+    <article class="article travail">
+        <h2 class="article_title">Travail à faire pour les prochains jours</h2>
+        <span class="article_text">Aucun travail à faire n'a été saisi pour cette semaine</span>
+    </article>
+    <article class="article cours">
+        <h2 class="article_title">3 prochains cours</h2>
+        <div class="emploi_du_temps">
+            <h2 class="jour">Aujourd'hui</h2>
+            <div id="cours1" style="display: none;">
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>12h55</span>
+                        <span>13h45</span>
+                    </div>
+                    <div class="cour_info emc">
+                        <span class="matiere">Ens. moral & civique</span>
+                        <span class="prof">Demartlet M.</span>
+                        <span class="salle">230</span>
+                    </div>    
+                </div>
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>13h55</span>
+                        <span>15h45</span>
+                    </div>
+                    <div class="cour_info francais">
+                        <span class="matiere">Francais</span>
+                        <span class="prof">Tarverdet C.</span>
+                        <span class="salle">335-M</span>
+                    </div>    
+                </div>
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>15h55</span>
+                        <span>16h45</span>
+                    </div>
+                    <div class="cour_info espagnol">
+                        <span class="matiere">Espagnol LV2</span>
+                        <span class="prof">Paulin V.</span>
+                        <span class="groupe">[1ESP2]</span>
+                        <span class="salle">240-L</span>
+                    </div>
+                </div>
+            </div>
+            <div id="cours2" style="display: none;">
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>12h55</span>
+                        <span>13h45</span>
+                    </div>
+                    <div class="cour_info histoire">
+                        <span class="matiere">Histoire-Geographie</span>
+                        <span class="prof">Nocton E.</span>
+                        <span class="salle">319-H</span>
+                    </div>    
+                </div>
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>13h55</span>
+                        <span>15h45</span>
+                    </div>
+                    <div class="cour_info maths">
+                        <span class="matiere">Mathematiques</span>
+                        <span class="prof">Maximin Y.</span>
+                        <span class="groupe">[1MATHSGR.3]</span>
+                        <span class="salle">335-M</span>
+                    </div>    
+                </div>
+                <div class="cours_info">
+                    <div class="heures">
+                        <span>15h55</span>
+                        <span>16h45</span>
+                    </div>
+                    <div class="cour_info francais">
+                        <span class="matiere">Francais</span>
+                        <span class="prof">Tarverdet C.</span>
+                        <span class="salle">335-M</span>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </article>
+    <article class="article notes">
+        <h2 class="article_title">Dernières notes</h2>
+        <div class="notes_list">
+            <div class="note">
+                <span class="puce"></span>
+                <div class="note_info">
+                    <span class="matiere">Mathematiques</span>
+                    <span class="date">le 13 oct.</span>
+                </div>
+                <div class="note_value">15,50</div>
+            </div>
+            <div class="note">
+                <span class="puce"></span>
+                <div class="note_info">
+                    <span class="matiere">Francais</span>
+                    <span class="date">le 13 oct.</span>
+                </div>
+                <div class="note_value">15,50</div>
+            </div>
+            <div class="note">
+                <span class="puce"></span>
+                <div class="note_info">
+                    <span class="matiere">Histoire-Geographie</span>
+                    <span class="date">le 13 oct.</span>
+                </div>
+                <div class="note_value">15,50</div>
+            </div>
+            <div class="note">
+                <span class="puce"></span>
+                <div class="note_info">
+                    <span class="matiere">Espagnol LV2</span>
+                    <span class="date">le 13 oct.</span>
+                </div>
+                <div class="note_value">15,50</div>
+            </div>
+            <div class="note">
+                <span class="puce"></span>
+                <div class="note_info">
+                    <span class="matiere">Mathematiques</span>
+                    <span class="date">le 13 oct.</span>
+                </div>
+                <div class="note_value">15,50</div>
+            </div>
+        </div>
+    </article>
+    <article class="article vie_scolaire">
+        <h2 class="article_title">Vie scolaire</h2>
+        <span class="article_text">Aucun nouvel évènement</span>
+    </article>
+    <article class="article agenda">
+        <h2 class="article_title">Agenda</h2>
+        <span class="article_text">Aucun évènement à venir</span>
+    </article>
+    <script src="app.js"></script>
+</body>
+</html>
